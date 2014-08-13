@@ -1,9 +1,10 @@
 package it.id10t.promotion
 
 import grails.transaction.Transactional
+import it.id10t.rules.RulesEngine
 
 @Transactional
-class PromotableTraitsRulesEngineService {
+class PromotableTraitsRulesEngineService extends RulesEngine {
 
     // example of a rule that returns many traits
     def heroOnBattlefieldRule = { soldier ->
