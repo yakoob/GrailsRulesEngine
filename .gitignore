@@ -1,0 +1,15 @@
+/out
+/bin
+idea
+/lib
+/idea-target
+target
+/build
+.gradle
+.DS_Store
+.classpath
+.project
+.settings
+*.iml
+.idea
+*.war
